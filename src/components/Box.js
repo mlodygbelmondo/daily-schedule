@@ -18,7 +18,7 @@ export default function Box() {
 
     const saveNewTask = newTask => setTasks(prevValue => [...prevValue, newTask])
 
-    const compareByDate = (firstTask, secondTask) => {
+    const compareByHour = (firstTask, secondTask) => {
           if ( firstTask.startHour < secondTask.startHour ){
             return -1;
           }
@@ -55,6 +55,6 @@ export default function Box() {
     return (<div className="box">
         <Heading />
         <InputArea onAdd={saveNewTask} index={tasks.length}             />
-        {tasks.sort(compareByDate).map(constructTask)}
+        {tasks.sort(compareByHour).map(constructTask)}
     </div>)
 }
