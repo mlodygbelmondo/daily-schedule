@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/daily-schedule/static/css/main.bdb305e4.css",
+    "main.js": "/daily-schedule/static/js/main.d9d44188.js",
+    "index.html": "/daily-schedule/index.html",
+    "main.bdb305e4.css.map": "/daily-schedule/static/css/main.bdb305e4.css.map",
+    "main.d9d44188.js.map": "/daily-schedule/static/js/main.d9d44188.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdb305e4.css",
+    "static/js/main.d9d44188.js"
+  ]
+}
